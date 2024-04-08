@@ -1,0 +1,47 @@
+.featuredcard,
+.featuredcard img{
+    height: 400px;
+    width: 400px;
+}
+.featuredcard{
+    position: relative;
+}
+.featuredTitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#F2F2F2;
+    opacity: 0.7;   
+    width: 100%;
+    text-align: center;
+}
+
+.featuredTitle h5{
+    color: black;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 4%;
+    font-size: 20px;
+    margin:0;
+    padding: 20px 0;
+}
+.featuredTag{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #333333;
+    padding: 11px 12px;
+    width: 164px;
+
+    
+}
+.featuredTag p{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 28px ;
+    font-size: 20px;
+    color: #F2F2F2;
+    letter-spacing: 4%;
+    font-weight: 800;
+    margin: 0;
+}
