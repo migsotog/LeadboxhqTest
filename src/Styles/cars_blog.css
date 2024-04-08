@@ -1,8 +1,8 @@
-.carblog{
+#carblogcard{
     width: 594px;
     background-color: white;
 }
-.carblog p{
+#carblogcard p{
     text-align: left;
     color: #4F4F4F;
     line-height: 16.8px;

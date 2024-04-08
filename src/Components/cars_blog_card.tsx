@@ -2,7 +2,7 @@ import carblog from "../assets/images/image55.png";
 import '../Styles/cars_blog.css';
 export default function CarsBlog(){
     return(
-        <div className="carblog">
+        <div id="carblogcard">
             <img src={carblog} alt="carblog1" />
             <h3 className="carblogTitle">Proin in lorem tortor</h3>
             <p>

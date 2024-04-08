@@ -1,9 +1,9 @@
-.featuredcard,
-.featuredcard img{
+#featuredcard,
+#featuredcard img{
     height: 400px;
     width: 400px;
 }
-.featuredcard{
+#featuredcard{
     position: relative;
 }
 .featuredTitle{

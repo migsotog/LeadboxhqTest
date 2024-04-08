@@ -3,7 +3,7 @@ import search_icon from '../assets/images/Leadbox-Web-Icons.svg'
 import '../Styles/navbar.css'
 export default function NavBar(){
     return(
-        <nav className="navbar">
+        <nav id="navbar">
         <div>
             <img src={logo} alt="Logo" />
         </div>

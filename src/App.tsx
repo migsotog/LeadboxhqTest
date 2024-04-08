@@ -8,6 +8,7 @@ import CarsBlog from './Components/cars_blog_card'
 import CarsBlogSection from './Components/cars_blog_section'
 import NavBar from './Components/navbar'
 import HeaderSlider from './Components/header_slider'
+import About from './Components/about'
 
 
 function App() {
@@ -15,10 +16,11 @@ function App() {
 
   return (
     //<FeaturedSlider/>
-    // <CarsBlog/>
+    //  <CarsBlog/>
     // <CarsBlogSection/>
     // <NavBar/>
-    <HeaderSlider/>
+    // <HeaderSlider/>
+    <About/>
   )
 }
 

@@ -1,0 +1,43 @@
+#aboutus{
+    background-image: url('/src/assets/images/image89.png');
+    background-repeat: no-repeat;
+    display: flex;
+    height: 343px;
+    width: 100%;
+    padding-right: 96px;
+}
+.aboutimages{
+    position: relative;
+    width: 35%;
+}
+.aboutimage1{
+    position: absolute;
+   
+}
+.aboutimage2{
+    position: absolute;
+   
+    bottom: 0;
+}
+.abouttext{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(33, 150, 83, 0.75);
+    padding: 0 43px 0 102px;
+}
+.abouttext h3{
+    align-self: center;
+    font-size: 36px;
+    font-weight:700;
+    line-height: 43px;
+    margin-bottom: 28px;
+}
+.abouttext p{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
