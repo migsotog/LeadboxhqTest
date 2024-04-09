@@ -1,0 +1,50 @@
+#footer{
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 96px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    
+}
+.logofooter{
+    align-self: center;
+    width: 150px;
+    height: 28px;
+}
+#selectdept{
+    background-color: white;
+    color: #4d4d4d;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#selectdept option{
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgba(130, 130, 130, 1);
+}
+#selectdept option:hover{
+    color: white;
+}
+.socialicons{
+    margin-top:3%;
+    display: flex;
+    column-gap: 10px;
+}
+.footerlinks{
+    display: flex;
+    column-gap: 5px;
+}
+.footerlinks a{
+    color: white;
+}

@@ -1,5 +1,5 @@
 #aboutus{
-    background-image: url('/src/assets/images/image89.png');
+    background: linear-gradient(0deg,rgba(33, 150, 83, 0.60), rgba(33, 150, 83, 0.60)), url('/src/assets/images/image89.png');
     background-repeat: no-repeat;
     display: flex;
     height: 343px;
@@ -8,7 +8,7 @@
 }
 .aboutimages{
     position: relative;
-    width: 35%;
+    width: 33%;
 }
 .aboutimage1{
     position: absolute;
@@ -16,14 +16,13 @@
 }
 .aboutimage2{
     position: absolute;
-   
     bottom: 0;
 }
 .abouttext{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 65%;
+    width: 67%;
     align-content: center;
     justify-content: center;
     background-color: rgba(33, 150, 83, 0.75);

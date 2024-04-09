@@ -9,19 +9,20 @@ import CarsBlogSection from './Components/cars_blog_section'
 import NavBar from './Components/navbar'
 import HeaderSlider from './Components/header_slider'
 import About from './Components/about'
+import Footer from './Components/footer'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    //<FeaturedSlider/>
-    //  <CarsBlog/>
-    // <CarsBlogSection/>
-    // <NavBar/>
-    // <HeaderSlider/>
+  return <>
+    <NavBar/>
+    <HeaderSlider/>
+    <FeaturedSlider/>
+    <CarsBlogSection/>
     <About/>
-  )
+    <Footer/>
+    </>
 }
 
 export default App

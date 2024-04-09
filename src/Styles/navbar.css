@@ -23,6 +23,7 @@
     min-width: 232px;
     left: -50%;
     transform: translateX(-35%);
+    z-index: 999;
 
 }
 #navbar ul li{
