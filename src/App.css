@@ -50,14 +50,9 @@
   right: 20px !important;
 }
 .slick-prev {
-  left: 0 !important;
+  left: 20px !important;
   z-index: 999;
 }
 .slick-prev:before, .slick-next:before{
-  font-size: 36px !important;
-  color:rgba(79, 79, 79, 1) !important;
+  content: '' !important
 }
-/* .slick-initialized .slick-slide {
-  display: flex !important;
-  justify-content: center !important;
-} */

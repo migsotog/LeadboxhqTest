@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import HeaderSliderImage from "./header_slider_image";
 import "../Styles/header_slider.css";
+import { NextArrow, PrevArrow } from "./custom_arrows";
 
 export default function HeaderSlider() {
   var settings = {
@@ -10,6 +11,8 @@ export default function HeaderSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

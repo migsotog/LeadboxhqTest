@@ -20,7 +20,7 @@ export default function Footer() {
 
   const handleSelect = (newOption: string) => {
     setCurrentOption(newOption);
-    setCurrentTime(times[newOption]);
+    setCurrentTime(times[newOption as keyof typeof times]);
   };
   return (
     <div id="footer">
