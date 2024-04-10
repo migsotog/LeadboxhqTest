@@ -1,6 +1,6 @@
 import nArrow from "../assets/images/NextArrow.svg";
 import pArrow from "../assets/images/PrevArrow.svg";
-function NextArrow(props) {
+function NextArrow(props: any) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -13,7 +13,7 @@ function NextArrow(props) {
   );
 }
 
-function PrevArrow(props) {
+function PrevArrow(props: any) {
   const { className, style, onClick } = props;
   return (
     <div
