@@ -1,0 +1,42 @@
+.bm-overlay{
+    
+    top:0;
+    left:0 !important;
+}
+.bm-menu-wrap{
+    top: 0;
+    left:0 !important;
+    overflow: hidden;
+}
+.bm-menu{
+  background-color: #f2f2f2;
+}
+.bm-burger-bars{
+    background-color: #333;
+}
+.bm-burger-button{
+    position: fixed;
+    width: 36px;
+    height: 30px; 
+    top: 24px;
+}
+.bm-item-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-top: 40px;
+    
+}
+.bm-item{
+    color: #333;
+}
+.bm-item:hover{
+    border-bottom: solid 1px;
+}
+.bm-burger-button button{
+    outline: 0;
+    line-height: normal;
+    text-transform: none;
+    
+}

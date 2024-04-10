@@ -1,6 +1,9 @@
 #carblogcard{
-    width: 594px;
+    width: 100%;
     background-color: white;
+}
+#carblogcard img{
+width:100%;
 }
 #carblogcard p{
     text-align: left;
@@ -18,4 +21,26 @@
     font-size: 36px;
     line-height: 43.2px;
     color: #333333;
+}
+@media(max-width:380px){
+    #carblogcard{
+        width:100%;
+        display: block !important;
+        
+    }
+    #carblogcard img{
+        width: 100%;
+        height: auto;
+    }
+    .carblogTitle{
+        font-size: 24px;
+    }
+}
+@media(max-width:1024px){
+    #carblogcard:nth-child(n+3){
+        display: none;
+    }
+    #carblogcard img{
+        width: 100%;
+    }
 }

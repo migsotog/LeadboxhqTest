@@ -2,5 +2,18 @@
     display: flex;
     column-gap: 20px;
     background-color: white;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 10px 47px;
+}
+@media(max-width:380px){
+    #cars_blog_section{
+        flex-direction: column;
+        padding:30px;
+        row-gap: 12px;
+    }
+}
+@media(max-width:1024px){
+    #cars_blog_section{
+        padding-inline:30px;
+    }
 }

@@ -40,3 +40,44 @@
     line-height: 16px;
     font-weight: 400;
 }
+@media(max-width:380px){
+    #aboutus{
+        flex-direction: column-reverse;
+        height: auto;
+        padding-right: 0 !important;
+        align-items: center;
+    }
+    .aboutimages{
+        height: 180px;
+        width: 100%;
+    }
+    .aboutimage1{
+        width: 210px !important;
+        bottom: 0;
+        left: -10px !important;
+    }
+    .aboutimage2{
+        width: 435px !important;
+        left:-20px !important;
+    }
+    .abouttext{
+        width: 100%;
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+}
+@media(max-width:1024px){
+    #aboutus{
+        padding-right: 25px;
+
+    }
+    .aboutimage1{
+        bottom:0;
+        left: -20px;
+        width:240px;
+    }
+    .aboutimage2{
+        width: 550px;
+        left: -30px;
+    }
+}

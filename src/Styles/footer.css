@@ -1,8 +1,14 @@
 #footer{
-    background-color: #4d4d4d;
-    display: flex;
-    justify-content: space-between;
+    background-color: rgba(51, 51, 51, 1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-evenly;
     padding: 43px 96px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .footer2{
     display: flex;
@@ -44,7 +50,43 @@
 .footerlinks{
     display: flex;
     column-gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .footerlinks a{
     color: white;
+    
+}
+.schedules{
+    display: flex;
+    column-gap: 20px;
+
+}
+@media(max-width:380px){
+    #footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        row-gap: 30px;
+    }
+    .footer1{
+        text-align: center;
+    }
+}
+@media(max-width:1024px){
+    #footer{
+        padding:43px;
+    }
+    .footer1{
+        font-size: 14px;
+    }
+    .footer3{
+        font-size: 14px;
+    }
+    .footerlinks{
+        font-size: 12px;
+        max-width: 278px;
+    }
+   
 }

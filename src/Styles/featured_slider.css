@@ -1,0 +1,24 @@
+#sliderContainer{
+    margin-bottom: 5%;
+    background-color: #F2F2F2;
+}
+.featuredHeader{
+    background-color: #F2F2F2;
+    color: rgba(51, 51, 51, 1);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 4px;
+    padding: 74px;
+    text-align: center;
+}
+@media(max-width:380px){
+    #sliderContainer{
+        padding-inline: 40px;
+    }
+}
+@media(max-width:1024px){
+    
+}

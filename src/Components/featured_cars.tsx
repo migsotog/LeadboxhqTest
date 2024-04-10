@@ -2,6 +2,7 @@ import '../Styles/featured_cars.css';
 import car1 from '../assets/images/image10.png'
 export default function FeaturedCars(){
     return(
+        
         <div id="featuredcontainer">
             <div className='featuredcard'>
                 <img src={car1} alt="Car1"/>
@@ -17,5 +18,6 @@ export default function FeaturedCars(){
                 </span>
             </div>
         </div>
+        
     )
 }
